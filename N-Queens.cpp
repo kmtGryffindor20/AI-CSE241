@@ -207,6 +207,7 @@ int moveQueenDown(int **board, vector<pair<int, int>> *allQueenPositions, int n,
 int main()
 {
     int n;
+    cout << "Enter the size of the chessboard: ";
     cin >> n;
     int** board = new int*[n];
     for (int i = 0; i < n; i++)
